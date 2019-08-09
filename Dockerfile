@@ -19,5 +19,5 @@ EXPOSE 8182
 
 # Copy the configuration files and launch
 COPY files .
-RUN chmod 700 startup_commands.sh
-CMD ["./startup_commands.sh"]
+RUN chmod 700 startup.sh
+CMD ["./startup.sh"]
